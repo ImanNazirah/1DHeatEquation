@@ -68,7 +68,7 @@ fprintf('The boundary conditions given in the form of matrix p:\n');p
 for j=1:m+1
 bnew=A*bnew;
 col= bnew.'  ;
-RESULT=array2table(col);%iman boleh pilih antara dua ni table or fprint
+RESULT=array2table(col);
 fprintf('k =%3d \t u = %.5f\t %.5f\t %.5f\t %.5f \n',j, col);
 end
 
